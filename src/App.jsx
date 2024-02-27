@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Componente1 } from './components/Componente1';
+import { Component1 } from './components/Component1';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>App de React</h1>
-        <Componente1/>
+        <Component1/>
       </header>
     </div>
   );
